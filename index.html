@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World in some programming languages</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/881d0e5c76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <header class="navbar__header">
+          Languages
+          <i class="fas fa-bars toggle-button"></i>
+        </header>
+    
+        <ul class="navbar__links">
+          <li><a class="nav-link" href="#basic">Basic</a></li>
+          <li><a class="nav-link" href="#c">C</a></li>
+          <li><a class="nav-link" href="#c++">C++</a></li>
+          <li><a class="nav-link" href="#c#">C#</a></li>
+          <li><a class="nav-link" href="#clipper">Clipper</a></li>
+          <li><a class="nav-link" href="#delphi">Delphi</a></li>
+          <li><a class="nav-link" href="#java">Java</a></li>
+          <li><a class="nav-link" href="#javascript">Javascript</a></li>
+          <li><a class="nav-link" href="#julia">Julia</a></li>
+          <li><a class="nav-link" href="#objective-c">Objective-C</a></li>
+          <li><a class="nav-link" href="#pascal">Pascal</a></li>
+          <li><a class="nav-link" href="#perl_5">Perl 5</a></li>
+          <li><a class="nav-link" href="#python">Python</a></li>
+          <li><a class="nav-link" href="#r">R</a></li>
+          <li><a class="nav-link" href="#ruby">Ruby</a></li>
+          <li><a class="nav-link" href="#swift">Swift</a></li>
+          <li><a class="nav-link" href="#visual_basic_.net">Visual Basic .NET</a></li>
+          <li><a class="nav-link" href="#hello_world">Hello World</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-doc" id="main-doc">
+
+      <section class="main-section" id="hello_world">
+        <header>Hello World</header>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p>The “Hello world!” is a small code that can be developed in different programming languages.</p>
+        <p>The objective is to facilitate the knowledge of the basic structure and the functioning of the language.</p>
+        <p> Therefore, it can be developed in several alternatives. In practice, it is a simple program, with few lines of code and that returns the message “Hello, world!”</p>
+        <p> On the screen, here are some examples.</p>
+      </section>
+  
+      <section class="main-section" id="basic">
+        <header>Basic</header>
+        <div class="code-container">
+          <code>
+            PRINT "Hello, world!"​
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="c">
+        <header>C</header>
+        <div class="code-container">
+          <code>
+            <pre>#include 
+      
+  int main(void)
+  {
+      puts("Hello, world!");
+  }</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="c++">
+        <header>C++</header>
+        <div class="code-container">
+          <code>
+            <pre>#include 
+      
+  int main()
+  {
+      std::cout &lt&lt "Hello, world!
+  ";
+      return 0;
+  }</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="c#">
+        <header>C#</header>
+        <div class="code-container">
+          <code>
+            <pre>using System;
+  class Program
+  {
+      public static void Main(string[] args)
+      {
+          Console.WriteLine("Hello, world!");
+      }
+  }</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="clipper">
+        <header>Clipper</header>
+        <div class="code-container">
+          <code>
+            ? "Hello World"
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="delphi">
+        <header>Delphi</header>
+        <div class="code-container">
+          <code>
+            <pre>program HelloWorld;
+      begin
+          Writeln('Hello, world!');
+      end.</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="java">
+        <header>Java</header>
+        <div class="code-container">
+          <code>
+            <pre>import javax.swing.JFrame;  //Importing class JFrame
+  import javax.swing.JLabel;  //Importing class JLabel
+  public class HelloWorld {
+      public static void main(String[] args) {
+          JFrame frame = new JFrame();           //Creating frame
+          frame.setTitle("Hi!");                 //Setting title frame
+          frame.add(new JLabel("Hello, world!"));//Adding text to frame
+          frame.pack();                          //Setting size to smallest
+          frame.setLocationRelativeTo(null);     //Centering frame
+          frame.setVisible(true);                //Showing frame
+      }
+  }</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="javascript">
+        <header>JavaScript</header>
+        <div class="code-container">
+          <code>​document.write('Hello, world!');</code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="julia">
+        <header>Julia</header>
+        <div class="code-container">
+          <code>println("Hello world!")</code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="objective-c">
+        <header>Objective-C</header>
+        <div class="code-container">
+          <code>
+            <pre>#import 
+  #import 
+       
+  int main(void)
+  {
+      NSLog(@"Hello, world!
+  ");
+      return 0;
+  }</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="pascal">
+        <header>Pascal</header>
+        <div class="code-container">
+          <code>
+            <pre>program HelloWorld;
+      begin
+          WriteLn('Hello, world!');
+      end.</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="perl_5">
+        <header>Perl 5</header>
+        <div class="code-container">
+          <code>
+            <pre>print "Hello, world!
+      ";</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="python">
+        <header>Python</header>
+        <div class="code-container">
+          <code>
+            ​print "Hello, World!"
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="r">
+        <header>R</header>
+        <div class="code-container">
+          <code>
+            <pre>cat('Hello, world!
+  ')</pre>
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="ruby">
+        <header>Ruby</header>
+        <div class="code-container">
+          <code>
+            ​puts "Hello, world!"
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="swift">
+        <header>Swift</header>
+        <div class="code-container">
+          <code>
+            ​println("Hello, world!")
+          </code>
+        </div>
+      </section>
+  
+      <section class="main-section" id="visual_basic_.net">
+  
+        <header>Visual Basic .NET</header>
+        <div class="code-container">
+  
+          <pre><code>Module Module1
+      Sub Main()
+          Console.WriteLine("Hello, world!")
+      End Sub
+  End Module</code></pre>
+        </div>
+  
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </section>
+  
+    </main>
+  </body>
+</html>
